@@ -18,6 +18,22 @@ Add CANOpenNode header into ino project, add following code to header of code:
 #include "CANopenNode\CANopen.h"
 ```
 
+The code of ino project should be looks like this:
+
+```c++
+#include "CANopenNode\CANopen.h"
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+```
+
 ##
 
 
