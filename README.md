@@ -12,6 +12,12 @@ $ git submodule update
 
 ## CH11 Add header into ino project
 
+Add CANOpenNode header into ino project, add following code to header of code:
+
+``` c++
+#include "CANopenNode\CANopen.h"
+```
+
 ##
 
 
