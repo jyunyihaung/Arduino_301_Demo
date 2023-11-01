@@ -34,6 +34,24 @@ void loop() {
 }
 ```
 
-##
+## CH12 First Build ino project and get fail
 
+Done of the operation of CH11, start build will get error message looks like this:
 
+```
+Arduino\CANOpenNode\CANopenNode\301\CO_driver.h:32:10: fatal error: CO_driver_target.h: No such file or directory
+ #include "CO_driver_target.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+exit status 1
+Error compiling for board Arduino Uno.
+```
+
+This message shows there is a missing file, take a look into README.MD of CANOpenNode.  
+In "File structure" section explain all file definetion, find out the "CO_driver_target.h":
+
+* CO_driver_target.h - Example hardware definitions for CANopenNode.
+* CO_driver_blank.c - Example blank interface for CANopenNode.
+
+CANOpenNode stack provides \muC demo in PIC/STM32, but there is not Arduino demo.  
+The basic CANOpenNode stack includes the CAN message process for CANOpen, but the code of hardware control needs implemented by the developer to fit the varying platform.
