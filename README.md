@@ -53,5 +53,5 @@ In "File structure" section explain all file definetion, find out the "CO_driver
 * CO_driver_target.h - Example hardware definitions for CANopenNode.
 * CO_driver_blank.c - Example blank interface for CANopenNode.
 
-CANOpenNode stack provides \muC demo in PIC/STM32, but there is not Arduino demo.  
+CANOpenNode stack provides uC demo for PIC/STM32, but there is not Arduino demo.  
 The basic CANOpenNode stack includes the CAN message process for CANOpen, but the code of hardware control needs implemented by the developer to fit the varying platform.
