@@ -1,8 +1,6 @@
 # Arduino_301_Demo
 CiA301 on Arduino
 =======
-# CANOpenNode
-
 ## CH0 Create a new ino project
 
 ## CH1 Add CANOpenNode stack as submodule
