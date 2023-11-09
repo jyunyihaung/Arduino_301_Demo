@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Arduino_301_Demo
 CiA301 on Arduino
 =======
@@ -59,4 +58,3 @@ In "File structure" section explain all file definetion, find out the "CO_driver
 
 CANOpenNode stack provides uC demo for PIC/STM32, but there is not Arduino demo.  
 The basic CANOpenNode stack includes the CAN message process for CANOpen, but the code of hardware control needs implemented by the developer to fit the varying platform.
->>>>>>> 6014b93e30aefad97b1ad83c5eb13c2e44d83b15
