@@ -1,5 +1,14 @@
 # Arduino_301_Demo
 CiA301 on Arduino
+
+Setup:
+```
+$ git clone https://github.com/jyunyihaung/Arduino_301_Demo.git
+$ cd Arduino_301_Demo
+$ git submodule init
+$ git submodule update
+```
+
 =======
 ## CH0 Create a new ino project
 
