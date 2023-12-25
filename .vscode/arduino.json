@@ -1,0 +1,5 @@
+{
+    "sketch": "Arduino_301_Demo.ino",
+    "output": "build",
+    "board": "arduino:avr:uno"
+}
